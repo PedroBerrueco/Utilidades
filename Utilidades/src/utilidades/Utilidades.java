@@ -1,5 +1,7 @@
 package utilidades;
 
+// Segundo commit
+
 /**
  * Esta clase contiene varias utilidades para comprobar el formato de cadenas de texto.
  * 
@@ -37,10 +39,10 @@ public class Utilidades {
 	}
 	
 /**
- * Convierte una cadena a mayúsculas.
+ * Convierte una cadena a mayï¿½sculas.
  * 
  * @param s Cadena a convertir
- * @return Cadena convertida a mayúsculas
+ * @return Cadena convertida a mayï¿½sculas
  */
 public static String toUpperCase(String s) {
 	return s.toUpperCase();
@@ -57,10 +59,10 @@ public static char[] toCharArray(String s) {
 }
 	
 	/**
-	 * Comprueba si una cadena contiene sólo letras.
+	 * Comprueba si una cadena contiene sï¿½lo letras.
 	 * 
 	 * @param s Cadena a comprobar
-	 * @return Si la cadena contiene sólo letras
+	 * @return Si la cadena contiene sï¿½lo letras
 	 */
 	public static boolean isAlpha(String s) {
 		return s.matches("[a-zA-Z]+");
